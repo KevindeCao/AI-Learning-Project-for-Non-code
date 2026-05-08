@@ -48,20 +48,26 @@ Inside .env file:
 ANTHROPIC_API_KEY=your_api_key_here
 IMPORTANT:
 ⚠️ NEVER share your .env file publicly.
+
 ⚠️ NEVER upload your API key to GitHub.
+
 ⚠️ Your API key is private like a password.
 
-6. Install Required Libraries
+
+7. Install Required Libraries
 Open VS Code terminal.
 Run:
 
 #Khởi tạo dự án
+
 uv init
 
 #Cài đặt python-dotenv
+
 uv add python-dotenv
 
 #Cài đặt Anthropic library
+
 uv add anthropic
 
 
