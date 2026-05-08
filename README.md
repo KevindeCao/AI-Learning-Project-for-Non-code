@@ -62,7 +62,9 @@ Paste your main Python code here.
 
 history_chat.py
 Example:
+
 history_chat = """Important information or previous conversation goes here."""
+
 This file is used to manually store memory/chat history.
 
 8. Run the AI Chatbot
@@ -95,17 +97,16 @@ Inside main.py:
 Fus = AI_bot(    "You are a caveman...")
 Change this text to create different AI personalities.
 Example:
-"You are a professional business consultant""You are a funny anime girl""You are a coding teacher"
+"You are a professional business consultant"
+"You are a funny anime girl"
+"You are a coding teacher"
 
-12. Change AI Model
+13. Change AI Model
 Inside:
 model="claude-sonnet-4-6"
-You can replace with newer Claude models later.
-Check available models here:
-Claude API Documentation
+You can replace with newer Claude models later. But I do recommend sonnet-4-6 for regular task.
 
-Simple Project Structure
-AI_Chatbot/│├── main.py├── history_chat.py├── .env
+
 
 Done
-You now have your own local AI chatbot powered by Claude API.
+You now have your own sexy local AI chatbot powered by Claude API.
