@@ -23,10 +23,12 @@ AI_Chatbot
 Open this folder in VS Code.
 
 3. Create These Files
-Inside your folder, create:
-main.pyhistory_chat.py.env
+Inside your folder or open folder with VSCODE, create:
+main.py
+history_chat.py
+.env
 
-4. Get Your Claude API Key
+5. Get Your Claude API Key
 Go to:
 Claude Console
 
