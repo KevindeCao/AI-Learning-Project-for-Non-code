@@ -54,9 +54,18 @@ IMPORTANT:
 6. Install Required Libraries
 Open VS Code terminal.
 Run:
-pip install anthropic python-dotenv
 
-7. Paste Your Code
+#Khởi tạo dự án
+uv init
+
+#Cài đặt python-dotenv
+uv add python-dotenv
+
+#Cài đặt Anthropic library
+uv add anthropic
+
+
+8. Paste Your Code
 main.py
 Paste your main Python code here.
 
